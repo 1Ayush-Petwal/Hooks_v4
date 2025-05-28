@@ -1,0 +1,9 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+# v4 uses the 'transient storage' feature of solidity, n the second latest fork of the EVM
+evm_version = 'cancun'
+solc_version = '0.8.26'
